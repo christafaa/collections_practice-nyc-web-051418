@@ -10,7 +10,7 @@ def sort_array_char_count(arr)
   arr.sort_by {|word| word.length}
 end
 
-def sway_elements(arr)
+def swap_elements(arr)
   result = arr
   result[1] = arr
 end
