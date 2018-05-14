@@ -37,7 +37,6 @@ end
 
 def add_s(arr)
   arr.map.with_index do |word, i|
-    word + "s" unless i == 1
-    word
+    i == 1 ? word : word + "s"
   end
 end
