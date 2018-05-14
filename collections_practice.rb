@@ -30,5 +30,6 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  
+  sum = 0
+  arr.reduce {|sum, num| sum + num}
 end
