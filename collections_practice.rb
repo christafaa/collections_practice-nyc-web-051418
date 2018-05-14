@@ -36,7 +36,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.map do |word|
-
+  arr.map.with_index do |word|
+    word + "s" unless
   end
 end
