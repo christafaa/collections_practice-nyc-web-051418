@@ -31,7 +31,7 @@ end
 
 def sum_array(arr)
   sum = 0
-  arr.reduce {|sum, num| sum + num}
+  arr.reduce {|sum, num| sum += num}
   sum
 end
 
