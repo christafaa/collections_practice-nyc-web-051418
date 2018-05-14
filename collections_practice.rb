@@ -34,3 +34,7 @@ def sum_array(arr)
   arr.reduce {|sum, num| sum + num}
   sum
 end
+
+def add_s(arr)
+
+end
