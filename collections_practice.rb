@@ -22,7 +22,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map {|word| word[2] = "$"}
+  arr.map {|word| "#{word[0..1]}$#{word[3..-1]}"}
 end
 
 def find_a(arr)
